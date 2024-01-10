@@ -1,9 +1,9 @@
 name: Hello chennai
-on: pull_request
+on: push
 
 jobs:
   my-jobs:
-      name: Welcome India
+      name: Welcome You
       runs-on: ubuntu-latest
       steps:
         - name: Print Hello chennai"
