@@ -1,0 +1,12 @@
+name: Hello chennai
+on: push
+
+jobs:
+  my-jobs:
+      name: Welcome You
+      runs-on: ubuntu-latest
+      steps:
+        - name: Print Hello chennai"
+          run: echo "Vanakkam chennai
+        - name: Print Hello India
+          run: echo "Vanakkam India"
