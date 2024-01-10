@@ -1,0 +1,13 @@
+name: Hello chennai
+on: pull_request
+
+jobs:
+  my-jobs:
+      name: Welcome India
+      runs-on: ubuntu-latest
+      steps:
+        - name: Print Hello chennai"
+          run: echo "Vanakkam chennai
+        - name: Print Hello India
+          run: echo "Vanakkam India"
+          
